@@ -2,7 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 
-const About = () => {
+const Projects = () => {
   const router = useRouter();
 
   const handleHome = () => {
@@ -61,4 +61,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;
